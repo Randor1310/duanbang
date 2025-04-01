@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn tr td th elements</title>
+  </head>
+  <body>
+    <h1>Học tạo bảng trên web</h1>
+    <h2>Tạo bảng cơ bản</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Tên sản phẩm</th>
+          <th>Giá sản phẩm</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Áo phông</td>
+          <td>100.000 vnđ</td>
+        </tr>
+        <tr>
+          <td>Quần Jean</td>
+          <td>200.000 vnđ</td>
+        </tr>
+        <tr>
+          <td>Giày Sneaker</td>
+          <td>500.000 vnđ</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Thành tiền</td>
+          <td>800.000 vnđ</td>
+        </tr>
+      </tfoot>
+    </table>
+    <h2>Học sử dụng colspan và rowspan</h2>
+
+    <table>
+      <tr>
+        <th>Tên sản phẩm</th>
+        <th colspan="2">Mô tả</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Áo phông</td>
+        <td>Chất liệu</td>
+        <td>Vải Cotton</td>
+      </tr>
+      <tr>
+        <td>Size</td>
+        <td>S, M, L, XL, XXL</td>
+      </tr>
+      <tr>
+        <td>Quần Jean</td>
+        <td colspan="2">Quần Jean cao cấp, dễ dàng phối đồ</td>
+      </tr>
+    </table>
+  </body>
+</html>
